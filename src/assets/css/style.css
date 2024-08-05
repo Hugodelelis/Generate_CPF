@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: cadetblue;
+    display: grid;
+    place-content: center center;
+}
+
+.container {
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 1em;
+}
+
+.container .newCPF {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+#generate {
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+}
