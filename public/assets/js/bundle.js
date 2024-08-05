@@ -166,6 +166,7 @@ body {
     background-color: white;
     padding: 1em 2em;
     border-radius: 1em;
+    margin: 2em;
 }
 
 .container .newCPF {
@@ -178,7 +179,7 @@ body {
     color: white;
     padding: 0.5em 1em;
     border: none;
-}`, "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,2BAA2B;IAC3B,aAAa;IACb,4BAA4B;AAChC;;AAEA;IACI,uBAAuB;IACvB,gBAAgB;IAChB,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,uBAAuB;IACvB,YAAY;IACZ,kBAAkB;IAClB,YAAY;AAChB","sourcesContent":["* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n    min-height: 100vh;\r\n    background-color: cadetblue;\r\n    display: grid;\r\n    place-content: center center;\r\n}\r\n\r\n.container {\r\n    background-color: white;\r\n    padding: 1em 2em;\r\n    border-radius: 1em;\r\n}\r\n\r\n.container .newCPF {\r\n    margin: 0.5em 0;\r\n    font-size: 1.2em;\r\n}\r\n\r\n#generate {\r\n    background-color: black;\r\n    color: white;\r\n    padding: 0.5em 1em;\r\n    border: none;\r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"AAAA;IACI,SAAS;IACT,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,iBAAiB;IACjB,2BAA2B;IAC3B,aAAa;IACb,4BAA4B;AAChC;;AAEA;IACI,uBAAuB;IACvB,gBAAgB;IAChB,kBAAkB;IAClB,WAAW;AACf;;AAEA;IACI,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,uBAAuB;IACvB,YAAY;IACZ,kBAAkB;IAClB,YAAY;AAChB","sourcesContent":["* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n    min-height: 100vh;\r\n    background-color: cadetblue;\r\n    display: grid;\r\n    place-content: center center;\r\n}\r\n\r\n.container {\r\n    background-color: white;\r\n    padding: 1em 2em;\r\n    border-radius: 1em;\r\n    margin: 2em;\r\n}\r\n\r\n.container .newCPF {\r\n    margin: 0.5em 0;\r\n    font-size: 1.2em;\r\n}\r\n\r\n#generate {\r\n    background-color: black;\r\n    color: white;\r\n    padding: 0.5em 1em;\r\n    border: none;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
