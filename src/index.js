@@ -1,3 +1,6 @@
+import "core-js/stable";
+import "regenerator-runtime"
+
 import GenCPF from './assets/modules/genCPF'
 import './assets/css/style.css';
 
